@@ -131,24 +131,24 @@ p {
 
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar {
-    width: 0.5rem;
+    width: 0.6rem;
 }
 
 ::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to bottom, #ff0000 0%, #c6019a 51%, #ff0000 100%);
-    background-position: center bottom;
-    border-radius: 5rem;
+    background-position:center;
+    background-size: cover;    
+    border-radius: 10%;
     transition: var(--transition);
     -o-transition: var(--tranistion);
     -moz-transition: var(--transition);
     -webkit-transition: var(--transition);
 }
 
+
 ::-webkit-scrollbar-track {
-    background-color: #eeeeee98;
+    background-color: var(--black);
 }
-
-
 /* CUSTOM BUTTONS */
 .primary-btn {
     color: var(--white);
