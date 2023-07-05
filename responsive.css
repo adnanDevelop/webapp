@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    /* TEXT COLORS */
+    --white: #fff;
+    --black: #000;
+    --red: #ff0000;
+    --pink: #c6019a;
+    --gray: #7f7f7f;
+    --dark-gray: #bebebe;
+    --btn-gradient: (to left, #ff0000 0%, #c6019a 51%, #ff0000 100%);
+    --secondary-btn: linear-gradient(to left, #ff0000 0%, #c6019a 100%);
+
+    /* FONT FAMILIES */
+    --heading-font: 'Aclonica', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+
+    /* TRANSITION   */
+    --transition: 0.3s linear
+}
+
+
+/* 1025px */
+@media(max-width: 1025px) {
+
+    /* CUSTOM CSS */
+    h1 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .section-padding {
+        padding-block: 10rem;
+    }
+
+    .about-content {
+        padding-left: 5rem;
+    }
+
+    .primary-btn,
+    .success-btn {
+        padding: 1rem 3rem;
+    }
+
+    .success-btn {
+        font-size: 1rem;
+    }
+
+    /* ABOUT SECTION */
+    .about-content {
+        padding-left: 1rem;
+    }
+
+    /* FOOTER SECTION */
+    .footer-third-section ul li a {
+        font-size: 1.4rem;
+    }
+
+    .form-control {
+        padding: 0.5rem 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .submit-btn {
+        padding: 0.5rem 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .footer-padding {
+        padding: 8rem 0 8rem;
+    }
+}
+
+/* 998PX */
+@media(max-width: 998px) {
+
+    /* CUSTOM CSS */
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    .section-padding {
+        padding-block: 7rem;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        padding: 1rem 2.5rem;
+    }
+
+    /* NAVBAR SECTION START */
+
+
+    .nav-btn {
+        display: none;
+    }
+
+    .navbar {
+        padding-block: 2rem;
+        height: fit-content !important;
+    }
+
+    .nav-item {
+        padding-inline: 0;
+    }
+
+    .nav-item .nav-link {
+        padding-block: 1.5rem;
+        color: var(--white) !important;
+    }
+
+    .nav-item .nav-link::before {
+        left: 0;
+        transform: translateX(0);
+        width: 0.5%;
+        height: 0.2rem;
+    }
+
+    .navbar-brand img {
+        width: 10rem;
+    }
+
+    .navbar-nav {
+        padding-block: 1.5rem;
+        background-color: #0b111f;
+    }
+
+    .navbar-collapse {
+        background-color: var(--white);
+    }
+
+    .nav-item .nav-link {
+        color: var(--black);
+    }
+
+    .nav-item {
+        padding-left: 2rem;
+    }
+
+    /* ABOUT SECTION  */
+    .about-content h2 {
+        font-size: 2.5rem;
+    }
+
+    /* FIGHT SECTIO START */
+    .fight-image,
+    .fight-right-image,
+    .fighter-section-image {
+        height: 400px;
+    }
+
+    /* PRICING CARD SECTION START */
+    .pricing-card-big {
+        transform: scale(1);
+    }
+
+    /* FOOTER SECTION START */
+    .form-control {
+        padding: 0.9rem 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    .submit-btn {
+        padding: 0.9rem 1.2rem;
+        font-size: 1.4rem;
+    }
+
+    /* FOOTER SECTION START */
+    .footer-first-section p,
+    .footer-second-section p,
+    .footer-third-section p,
+    .footer-fourth-section p {
+        color: #bebebe;
+        margin-bottom: 0rem;
+    }
+
+    .footer-third-section ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+
+
+
+/* 998PX */
+@media(max-width: 770px) {
+
+    /* CUSTOM CSS */
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    .section-padding {
+        padding-block: 5rem;
+    }
+
+    .border-btn {
+        padding: 1rem 2.5rem;
+        font-size: 1.2rem;
+    }
+
+    /* NAVBAR SECTION START */
+    .navbar {
+        height: fit-content !important;
+    }
+
+    /* ABOUT SECTION  START */
+    .about-content {
+        padding-left: 0rem;
+    }
+
+    .about-btn {
+        margin-right: 1rem;
+    }
+
+    /* FIGHT SECTION START */
+    .fight-images img {
+        width: 5rem;
+        height: auto;
+    }
+
+    .fight-image,
+    .fight-right-image,
+    .fighter-section-image {
+        height: 300px;
+    }
+
+    /* WAR SECTION START */
+    .war-text-section>h4,
+    .war-second-section>h4 {
+        font-size: 1.4rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+
+
+/* 998PX */
+@media(max-width: 480px) {
+
+    /* CUSTOM CSS */
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    .footer-right-padding {
+        padding-right: 1.2rem;
+    }
+
+    /* HERO SECTION START */
+    .banner-inner p {
+        line-height: 3rem !important;
+        padding-right: 0rem;
+    }
+
+    /* STREAM SECTION START */
+    .carousel-control-prev {
+        left: 2%;
+    }
+
+    .carousel-control-next {
+        left: 6%;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+}
+
+/* 998PX */
+@media(max-width: 420px) {}
